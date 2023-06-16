@@ -1,4 +1,4 @@
-import microsoftLogo from "../../Assets/Microsoft logo/Microsoft Logo V2.png"
+import microsoftLogo from "../../assets/logos/microsoft_logo-2.png"
 import "./MicrosoftNav.scss"
 const MicrosoftNav = () => {
     return (
