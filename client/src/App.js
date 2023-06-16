@@ -2,6 +2,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Nav from './components/Nav/Nav';
 import DashboardLeft from './components/Dashboard/Dashboard';
 import PrivacySettings from './components/PrivacySettings/PrivacySettings'
+import PrivacyPage from './Pages/PrivacyPage/PrivacyPage'
+import PrivacyDashboard from './Pages/PrivacyDashboard/PrivacyDashboard'
 import Hero from './components/Hero/Hero';
 import PrivacyPage from './Pages/PrivacyPage/PrivacyPage'
 import PrivacyDashboard from './Pages/PrivacyDashboard/PrivacyDashboard'
