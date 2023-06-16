@@ -1,0 +1,7 @@
+@import './variables';
+
+@mixin image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
