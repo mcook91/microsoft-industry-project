@@ -5,8 +5,6 @@ import PrivacySettings from './components/PrivacySettings/PrivacySettings'
 import PrivacyPage from './Pages/PrivacyPage/PrivacyPage'
 import PrivacyDashboard from './Pages/PrivacyDashboard/PrivacyDashboard'
 import Hero from './components/Hero/Hero';
-import PrivacyPage from './Pages/PrivacyPage/PrivacyPage'
-import PrivacyDashboard from './Pages/PrivacyDashboard/PrivacyDashboard'
 
 import './App.scss';
 
