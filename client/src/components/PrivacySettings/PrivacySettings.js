@@ -20,7 +20,7 @@ const privacySettings = () => {
                     </div>
                     <div className='privacy__links'>
                         <img className="privacy__logos" src={teams} alt='teams'/>
-                        <Link className="privacy__text--link" to='#'>
+                        <Link className="privacy__text--link" to='/dashboard'>
                         <h3 className="privacy__text">Go to your teams to change privacy settings</h3>
                         </Link>
                     </div>
