@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import accountSymbol from '../../Assets/Microsoft logo/Microsoft Account Symbol.svg'
+import accountSymbol from '../../assets/logos/microsoft_logo-account.svg'
 import './Nav.scss';
 
 const Nav = ({pageName}) => {

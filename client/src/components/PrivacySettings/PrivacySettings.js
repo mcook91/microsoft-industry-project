@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom';
 import './PrivacySettings.scss';
-import xbox from '../../Assets/Microsoft Subsidaries Logos/xbox.png'
-import teams from '../../Assets/Microsoft Subsidaries Logos/teams.png'
-import skype from '../../Assets/Microsoft Subsidaries Logos/skype.png'
-import mojang from '../../Assets/Microsoft Subsidaries Logos/mojang.png'
-import linkedin from '../../Assets/Microsoft Subsidaries Logos/linkedin.png'
-import github from '../../Assets/Microsoft Subsidaries Logos/github.png'
+import xbox from '../../assets/logos/xbox_logo.png'
+import teams from '../../assets/logos/teams_logo.png'
+import skype from '../../assets/logos/skype_logo.png'
+import mojang from '../../assets/logos/mojang_logo.png'
+import linkedin from '../../assets/logos/linkedin_logo.png'
+import github from '../../assets/logos/github_logo.png'
 
 const privacySettings = () => {
     return (
