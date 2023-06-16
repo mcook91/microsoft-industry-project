@@ -1,0 +1,27 @@
+@import '../../styles/variables';
+
+.nav {
+    background-color: $microsoft-blue;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 6.375rem;
+    &__title {
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2.66rem;
+        color: $white;
+        margin-right: 3.125rem;
+    }
+    &__list {
+        gap: 2rem;
+        display: flex;
+        justify-content: flex-start;
+    }
+    &__link {
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 1.995rem;
+        color: $white;
+    }
+}
