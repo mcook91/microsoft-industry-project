@@ -7,20 +7,20 @@ import './EventInfo.scss'
 const EventInfo = () => {
     const array = [
         {
-            eventName: "Summer Music Festival",
-            date: "2023-07-15",
-            eventInfo: "Join us for a day filled with live music performances from top artists.",
-            locationInfo: "Central Park, New York City"
+            eventName: "calendar event added",
+            date: "07:19 AM",
+            eventInfo: "Discuss buying a house",
+            locationInfo: "Olive Garden, Scranton PA"
         },
         {
-            eventName: "Tech Conference 2023",
-            date: "2023-09-20",
+            eventName: "calendar event added",
+            date: "10:30 AM",
             eventInfo: "Discover the latest trends and innovations in the tech industry.",
             locationInfo: "Convention Center, San Francisco"
         },
         {
-            eventName: "Charity Gala Dinner",
-            date: "2023-11-08",
+            eventName: "calendar event added",
+            date: "02:00 PM",
             eventInfo: "An elegant evening to support local charities and make a difference in our community.",
             locationInfo: "Grand Ballroom, Hilton Hotel, London"
         }
