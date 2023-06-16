@@ -1,17 +1,36 @@
 @import '../../styles/variables';
+@import '../../styles/mixins';
 
 .nav {
     background-color: $microsoft-blue;
     display: flex;
     justify-content: flex-start;
+    align-items: flex-end;
     width: 100%;
     height: 6.375rem;
+    padding-bottom: 1.875rem;
+    &__symbol {
+        @include image;
+        width: 75%;
+        height: 75%;
+        &-container {
+            background-color: $microsoft-darkblue;
+            padding: 0.65rem;
+            margin-right: 1rem;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+        }
+    }
     &__title {
         font-weight: 700;
         font-size: 2rem;
-        line-height: 2.66rem;
         color: $white;
         margin-right: 3.125rem;
+    }
+    &__item {
+        list-style-type: none;
+        
     }
     &__list {
         gap: 2rem;
@@ -21,7 +40,7 @@
     &__link {
         font-weight: 600;
         font-size: 1.5rem;
-        line-height: 1.995rem;
         color: $white;
+        text-decoration: none;
     }
 }
