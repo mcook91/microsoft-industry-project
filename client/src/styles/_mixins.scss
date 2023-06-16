@@ -1,7 +1,19 @@
-@import './variables';
+@use './variables' as *;
 
-@mixin image {
+@mixin tablet {
+    @media screen and (min-width: $tablet-breakpoint) {
+      @content;
+    }
+  }
+  
+  @mixin desktop {
+    @media screen and (min-width: $desktop-breakpoint) {
+      @content;
+    }
+  }
+  
+  @mixin image {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
+  }

@@ -1,0 +1,21 @@
+@import "../../styles/mixins";
+@import "../../styles/variables";
+
+.microsoft {
+    display: flex;
+    align-items: center;
+    margin: 2rem;
+    &__logo {
+        width: 222px;
+        margin-right: 75px;
+    }
+    &__nav {
+        display: flex;
+        flex-direction: row;
+    }
+    &__links {
+        margin-right: 75px;
+        font-size: 24px;
+        color: #707070;
+    }
+}

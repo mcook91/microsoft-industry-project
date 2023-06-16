@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import EventCard from '../EventCard/EventCard'
-import oliveGardenImg from '../../Assets/Images/olive-garden-buy-one-take-one-its-back-small-2.jpg'
-import genericImg from '../../Assets/Images/olive-garden-buy-one-take-one-its-back-small-2.jpg'
+import oliveGardenImg from '../../assets/images/olive_garden.jpg'
+import genericImg from '../../assets/images/xbox.jpg'
 import './EventInfo.scss'
 
 const EventInfo = () => {

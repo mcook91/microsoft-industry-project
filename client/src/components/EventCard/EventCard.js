@@ -1,11 +1,13 @@
-import deleteIcon from '../../Assets/Icons/Delete.svg'
-import locationIcon from '../../Assets/Icons/Location.svg'
+import deleteIcon from '../../assets/icons/Delete.svg'
+import deleteGreyIcon from '../../assets/icons/DeleteGrey.svg'
+import locationIcon from '../../assets/icons/Location.svg'
 import React, { useState } from 'react'
 import './EventCard.scss'
 
 const EventCard = ( {card, setActiveImg}) => {
     const [active, setActive] = useState(true)
-    const onClickHandler = () => {
+    const onClickHandler = (e) => {
+        e.preventDefault()
         if (active) {
             setActive(false)
             setActiveImg(false)
@@ -37,7 +39,7 @@ const EventCard = ( {card, setActiveImg}) => {
                             <p className='eventcard__info'>{active ? card.locationInfo : '---'}</p>
                         </div>
                     </div>
-                    <img onClick={onClickHandler} src={active ? deleteIcon : 'placeholder'} alt='Delete Icon' className='eventcard__delete' />
+                    <img onClick={onClickHandler} src={active ? deleteIcon : deleteGreyIcon} alt='Delete Icon' className='eventcard__delete' />
                 </div>
             </div>
             <div className='eventcard__footer-container'>
