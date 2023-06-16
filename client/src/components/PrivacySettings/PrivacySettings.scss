@@ -1,7 +1,8 @@
-@import '../../styles/mixins' ;
-@import '../../styles/variables' ;
+@import '../../styles/mixins';
+@import '../../styles/variables';
 
 .privacy{
+    padding-left: 2rem;
     &__title{
         font-weight: 600;
         font-size: 32px;
